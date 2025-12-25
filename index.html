@@ -6,13 +6,11 @@
   <title>Chartr</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-/>
+  <!-- MAP (Leaflet) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
+</head>
 <body>
 
   <!-- Header -->
@@ -37,10 +35,12 @@
     </div>
 
     <!-- Nearby -->
-    <div class="nearby-title">
+    <div id="map"></div>
+   <div class="nearby-title">
       <h3>Nearby You</h3>
       <a href="#">View Map</a>
     </div>
+
 
     <!-- Card -->
     <div class="card">
