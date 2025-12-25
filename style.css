@@ -160,3 +160,11 @@ h3 {
 .bottom .active {
   color: #1e40af;
 }
+/* MAP */
+#map {
+  height: 300px;
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 16px;
+}
+
